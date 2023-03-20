@@ -26,11 +26,13 @@ module ALU
 	output reg [31:0] ALU_Result_o
 );
 
+localparam ADD		= 4'b0000;
    
    always @ (A_i or B_i or ALU_Operation_i)
      begin
 		case (ALU_Operation_i)
-
+		ADD: // Add operation
+			ALU_Result_o = A_i + B_i;
 	
 		default:
 			ALU_Result_o = 0;
