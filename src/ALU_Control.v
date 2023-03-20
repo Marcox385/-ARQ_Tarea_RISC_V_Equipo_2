@@ -26,6 +26,9 @@ module ALU_Control
 
 );
 
+localparam R_Type_ADD 		= 7'b0_000_000;
+localparam I_Type_ADDI 		= 7'bx_001_000;
+
 reg [3:0] alu_control_values;
 wire [6:0] selector;
 
@@ -33,7 +36,8 @@ assign selector = {funct7_i, ALU_Op_i, funct3_i};
 
 always@(selector)begin
 	casex(selector)
-	
+		R_Type_ADD:			alu_control_values	=	4'b0000;
+		I_Type_ADDI:		alu_control_values	=	4'b0000;
 
 		default: alu_control_values = 4'b00_00;
 	endcase
