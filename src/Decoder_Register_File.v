@@ -8,7 +8,11 @@
 *	luispizano@iteso.mx
 * Date:
 *	16/08/2021
+*
+* Modified by:
+*	IS727550 - Diaz Aguayo; IS727272 - Cordero Hernandez
 ******************************************************************/
+
 module Decoder_Register_File
 (
 	input [4:0] Write_Register_i,

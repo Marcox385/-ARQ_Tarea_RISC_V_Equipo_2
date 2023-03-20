@@ -11,6 +11,9 @@
 *	luispizano@iteso.mx
 * Date:
 *	16/08/2021
+*
+* Modified by:
+*	IS727550 - Diaz Aguayo; IS727272 - Cordero Hernandez
 ******************************************************************/
 module Register_File
 #(
