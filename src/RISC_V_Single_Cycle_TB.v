@@ -14,6 +14,7 @@
 * Modified by:
 *	IS727550 - Diaz Aguayo; IS727272 - Cordero Hernandez
 ******************************************************************/
+
 `timescale 1ps/1ps
 module RISC_V_Single_Cycle_TB;
 reg clk_tb = 0;

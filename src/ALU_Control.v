@@ -30,17 +30,43 @@ module ALU_Control
 localparam R_Type_ADD 		= 7'b0_000_000; // Funct7: 0, Control: R_Type[2:0], Funct3: 0 
 localparam I_Type_ADDI 		= 7'bx_001_000; // Funct7: -, Control: I_Type[2:0], Funct3: 0
 localparam U_Type_LUI		= 7'bx_010_xxx; // Funct7: -, Control: U_Type[2:0], Funct3: -
+localparam I_Type_ORI		= 7'bx_001_110; // Funct7: -, Control: I_Type[2:0], Funct3: 6
 
 reg [3:0] alu_control_values;
 wire [6:0] selector;
 
 assign selector = {funct7_i, ALU_Op_i, funct3_i};
 
+/* Instrucciones a implementar
+		add, addi		0
+		sub				?
+		and				?
+		andi				?
+		or					?
+		ori				9
+		xor				?
+		xori				?
+		lui				8
+		srl				?
+		srli				?
+		sll				?
+		slli				?
+		lw					?
+		sw					?
+		beq				?
+		bne				?
+		blt				?
+		bge				?
+		jal				?
+		jalr				?
+*/
+
 always@(selector)begin
 	casex(selector)
 		R_Type_ADD:			alu_control_values	=	4'b0000;
 		I_Type_ADDI:		alu_control_values	=	4'b0000;
 		U_Type_LUI:			alu_control_values	=	4'b1000;
+		I_Type_ORI:			alu_control_values	=	4'b1001;
 
 		default: alu_control_values = 4'b00_00;
 	endcase

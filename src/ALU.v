@@ -26,21 +26,23 @@ module ALU
 	output reg [31:0] ALU_Result_o
 );
 
-localparam ADD		= 4'b0000;
+localparam ADD		= 4'b0000;	// Cubre ADDI también
 localparam LUI		= 4'b1000;
+localparam ORI		= 4'b1001;
    
-   always @ (A_i or B_i or ALU_Operation_i)
-     begin
+always @ (A_i or B_i or ALU_Operation_i)
+	begin
 		case (ALU_Operation_i)
 			ADD: // Add operation
 				ALU_Result_o = A_i + B_i;
 			LUI: // Load Upper Imm operation
 				ALU_Result_o = {B_i[19:0],12'b0};
+			ORI:
+				ALU_Result_o = A_i | B_i;
 			default:
 				ALU_Result_o = 0;
 			endcase // case(control)
-		
+
 		Zero_o = (ALU_Result_o == 0) ? 1'b1 : 1'b0;
-		
-     end // always @ (A or B or control)
+	end // always @ (A or B or control)
 endmodule // ALU

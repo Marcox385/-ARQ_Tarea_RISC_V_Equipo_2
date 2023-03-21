@@ -12,6 +12,7 @@
 * Modified by:
 *	IS727550 - Diaz Aguayo; IS727272 - Cordero Hernandez
 ******************************************************************/
+
 module Register
 #(
 	parameter N = 32
