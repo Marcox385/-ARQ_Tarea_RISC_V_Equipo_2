@@ -40,10 +40,10 @@ add wave -noupdate -group s3 /RISC_V_Single_Cycle_TB/DUV/REGISTER_FILE_UNIT/Regi
 add wave -noupdate -group s3 /RISC_V_Single_Cycle_TB/DUV/REGISTER_FILE_UNIT/Register_s3/DataOutput
 add wave -noupdate -group zero /RISC_V_Single_Cycle_TB/DUV/REGISTER_FILE_UNIT/Register_zero/DataInput
 add wave -noupdate -group zero /RISC_V_Single_Cycle_TB/DUV/REGISTER_FILE_UNIT/Register_zero/DataOutput
-add wave -noupdate -expand -group t0 /RISC_V_Single_Cycle_TB/DUV/REGISTER_FILE_UNIT/Register_t0/DataInput
-add wave -noupdate -expand -group t0 /RISC_V_Single_Cycle_TB/DUV/REGISTER_FILE_UNIT/Register_t0/DataOutput
-add wave -noupdate -group t1 -radix unsigned /RISC_V_Single_Cycle_TB/DUV/REGISTER_FILE_UNIT/Register_t1/DataInput
-add wave -noupdate -group t1 -radix unsigned /RISC_V_Single_Cycle_TB/DUV/REGISTER_FILE_UNIT/Register_t1/DataOutput
+add wave -noupdate -group t0 /RISC_V_Single_Cycle_TB/DUV/REGISTER_FILE_UNIT/Register_t0/DataInput
+add wave -noupdate -group t0 /RISC_V_Single_Cycle_TB/DUV/REGISTER_FILE_UNIT/Register_t0/DataOutput
+add wave -noupdate -expand -group t1 -radix unsigned /RISC_V_Single_Cycle_TB/DUV/REGISTER_FILE_UNIT/Register_t1/DataInput
+add wave -noupdate -expand -group t1 -radix unsigned /RISC_V_Single_Cycle_TB/DUV/REGISTER_FILE_UNIT/Register_t1/DataOutput
 add wave -noupdate -group t2 -radix unsigned /RISC_V_Single_Cycle_TB/DUV/REGISTER_FILE_UNIT/Register_t2/enable
 add wave -noupdate -group t2 -radix unsigned /RISC_V_Single_Cycle_TB/DUV/REGISTER_FILE_UNIT/Register_t2/DataInput
 add wave -noupdate -group t2 -radix unsigned /RISC_V_Single_Cycle_TB/DUV/REGISTER_FILE_UNIT/Register_t2/DataOutput
