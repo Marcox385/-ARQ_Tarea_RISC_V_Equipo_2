@@ -27,10 +27,12 @@ module Immediate_Unit
 
 always@(op_i or Instruction_bus_i) begin
 
-	if(op_i == 7'h13)
-		Immediate_o = {{20{Instruction_bus_i[31]}},Instruction_bus_i[31:20]};// I format
+	if (op_i == 7'h13)
+		Immediate_o = {{20{Instruction_bus_i[31]}},Instruction_bus_i[31:20]}; // Tipo I -> b0110011
+	else if (op_i == 7'h37)
+		Immediate_o = {{12{Instruction_bus_i[31]}},Instruction_bus_i[31:12]}; // Tipo U -> b0110111
 	else
-		Immediate_o = 0;// U format
+		Immediate_o = 0; // Tipo R - b0110011
 end
 
 
