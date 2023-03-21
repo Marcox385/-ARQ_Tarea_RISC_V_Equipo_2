@@ -29,6 +29,7 @@ module ALU
 localparam ADD		= 4'b0000;	// Cubre ADDI también
 localparam LUI		= 4'b1000;
 localparam ORI		= 4'b1001;
+localparam SLLI	= 4'b1100;
    
 always @ (A_i or B_i or ALU_Operation_i)
 	begin
@@ -39,6 +40,8 @@ always @ (A_i or B_i or ALU_Operation_i)
 				ALU_Result_o = {B_i[19:0],12'b0};
 			ORI:
 				ALU_Result_o = A_i | B_i;
+			SLLI:
+				ALU_Result_o = A_i << B_i;
 			default:
 				ALU_Result_o = 0;
 			endcase // case(control)

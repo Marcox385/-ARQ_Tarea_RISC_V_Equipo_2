@@ -31,6 +31,7 @@ localparam R_Type_ADD 		= 7'b0_000_000; // Funct7: 0, Control: R_Type[2:0], Func
 localparam I_Type_ADDI 		= 7'bx_001_000; // Funct7: -, Control: I_Type[2:0], Funct3: 0
 localparam U_Type_LUI		= 7'bx_010_xxx; // Funct7: -, Control: U_Type[2:0], Funct3: -
 localparam I_Type_ORI		= 7'bx_001_110; // Funct7: -, Control: I_Type[2:0], Funct3: 6
+localparam I_Type_SLLI		= 7'b0_001_001; // Funct7: 0, Control: I_Type[2:0], Funct3: 1
 
 reg [3:0] alu_control_values;
 wire [6:0] selector;
@@ -50,7 +51,7 @@ assign selector = {funct7_i, ALU_Op_i, funct3_i};
 		srl				?
 		srli				?
 		sll				?
-		slli				?
+		slli				12
 		lw					?
 		sw					?
 		beq				?
@@ -67,6 +68,7 @@ always@(selector)begin
 		I_Type_ADDI:		alu_control_values	=	4'b0000;
 		U_Type_LUI:			alu_control_values	=	4'b1000;
 		I_Type_ORI:			alu_control_values	=	4'b1001;
+		I_Type_SLLI:		alu_control_values	=	4'b1100;
 
 		default: alu_control_values = 4'b00_00;
 	endcase
