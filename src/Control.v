@@ -14,6 +14,7 @@
 * Modified by:
 *	IS727550 - Diaz Aguayo; IS727272 - Cordero Hernandez
 ******************************************************************/
+
 module Control
 (
 	input [6:0]OP_i,

@@ -9,6 +9,7 @@ R0
 R0
 R0
 R0
+R0
 !s11f vlog 2021.2 2021.04, Apr 14 2021
 13
 !s112 1.1
@@ -29,120 +30,120 @@ n@_opt
 Z5 OL;O;2021.2;73
 R1
 T_opt1
-!s110 1679351188
-VOzo7FCRT:d[gYW697FGD=3
+!s110 1679367277
+VSIPM[o]fg:135?C0mni<11
 R2
-=6-04d4c47e8ba3-6418dd93-271-71cc
+=7-04d4c47e8ba3-64191c6c-2cd-6388
 R3
 o-quiet -auto_acc_if_foreign -work work +acc
 R4
 n@_opt1
 R5
 vAdder_32_Bits
-Z6 !s110 1679351180
+!s110 1679367260
 !i10b 1
 !s100 LG2]=>bW_dlA[lLF>_dk@2
 IYb6Z@cejTEk46L^Z@RBTh1
-Z7 dD:/ARQ_QUARTUS/RISC_V_Single_Cycle/proj_questa
+Z6 dD:/ARQ_QUARTUS/RISC_V_Single_Cycle/proj_questa
 w1679348985
 8D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Adder_32_Bits.v
 FD:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Adder_32_Bits.v
-!i122 50
+!i122 65
 L0 16 16
-Z8 VDg1SIo80bB@j0V0VzS_@n1
-Z9 OL;L;2021.2;73
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2021.2;73
 r1
 !s85 0
 31
-Z10 !s108 1679351180.000000
+Z9 !s108 1679367260.000000
 !s107 D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Adder_32_Bits.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Adder_32_Bits.v|
 !i113 0
-Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R4
 n@adder_32_@bits
 vALU
-R6
+Z11 !s110 1679367261
 !i10b 1
-!s100 @WWzoSHBjaI0`9Im?E3>X0
-I0ek?Bb6olM7nMle`Hko5V2
-R7
-w1679351168
+!s100 <7hFe93Nzo_zDAFKN8_Xf1
+Ia@b2TCTnMjaC;aDQ;L3hh2
+R6
+Z12 w1679366275
 8D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/ALU.v
 FD:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/ALU.v
-!i122 51
-L0 20 25
+!i122 66
+L0 20 27
+R7
 R8
-R9
 r1
 !s85 0
 31
-R10
+R9
 !s107 D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/ALU.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/ALU.v|
 !i113 0
-R11
+R10
 R4
 n@a@l@u
 vALU_Control
-Z12 !s110 1679351181
+R11
 !i10b 1
-!s100 9_0CWWk66oclNW?]nTREX2
-Iaj;3<Y<lDk@P@m<hnW[7f0
-R7
-w1679350665
+!s100 1W<h5>XV?3;jl2FojojZ10
+IJH@0Xh0z2kSXG]LI:V>Vf3
+R6
+R12
 8D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/ALU_Control.v
 FD:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/ALU_Control.v
-!i122 52
-L0 18 34
+!i122 67
+L0 19 36
+R7
 R8
-R9
 r1
 !s85 0
 31
-R10
+Z13 !s108 1679367261.000000
 !s107 D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/ALU_Control.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/ALU_Control.v|
 !i113 0
-R11
+R10
 R4
 n@a@l@u_@control
 vControl
-R12
+R11
 !i10b 1
-!s100 VXH;^eVPiAAERoF5Sd0H;1
-IWg7]oT>^_F7U5`9A`1KI?0
-R7
-w1679348821
+!s100 C<VZBOgW4KRD1Y1G7QJ@A3
+IF=?d@PdC31[_EVL>Leeg60
+R6
+R12
 8D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Control.v
 FD:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Control.v
-!i122 53
-L0 17 44
+!i122 68
+L0 18 46
+R7
 R8
-R9
 r1
 !s85 0
 31
-Z13 !s108 1679351181.000000
+R13
 !s107 D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Control.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Control.v|
 !i113 0
-R11
+R10
 R4
 n@control
 vData_Memory
-R12
+R11
 !i10b 1
 !s100 0VRM5nNeE]S]m=F6>MEGM0
 I5A>H266@i;f`@a=ZP]I[K0
-R7
+R6
 w1679348990
 8D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Data_Memory.v
 FD:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Data_Memory.v
-!i122 54
+!i122 69
 L0 16 35
+R7
 R8
-R9
 r1
 !s85 0
 31
@@ -150,22 +151,22 @@ R13
 !s107 D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Data_Memory.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Data_Memory.v|
 !i113 0
-R11
+R10
 R4
 n@data_@memory
 vDecoder_Register_File
-R12
+Z14 !s110 1679367262
 !i10b 1
 !s100 Fd4VL=8cW>Id44f`CBYnY3
 IYZ3Kj:I2Jc=@7zFhffkFD2
-R7
+R6
 w1679348961
 8D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Decoder_Register_File.v
 FD:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Decoder_Register_File.v
-!i122 55
+!i122 70
 L0 16 50
+R7
 R8
-R9
 r1
 !s85 0
 31
@@ -173,30 +174,30 @@ R13
 !s107 D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Decoder_Register_File.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Decoder_Register_File.v|
 !i113 0
-R11
+R10
 R4
 n@decoder_@register_@file
 vImmediate_Unit
-Z14 !s110 1679351182
+R14
 !i10b 1
-!s100 FC7>85@[b>Bog7D;Z7aKM1
-ITKOQFX]V74C9cVNQP1:2?1
-R7
-w1679348956
+!s100 kFJn4D3?S2an>@E:7h97U1
+I6X@e^X7JOcCU<WS1jecM_3
+R6
+w1679364283
 8D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Immediate_Unit.v
 FD:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Immediate_Unit.v
-!i122 56
-L0 17 20
+!i122 71
+L0 18 22
+R7
 R8
-R9
 r1
 !s85 0
 31
-R13
+Z15 !s108 1679367262.000000
 !s107 D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Immediate_Unit.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Immediate_Unit.v|
 !i113 0
-R11
+R10
 R4
 n@immediate_@unit
 vMultiplexer_2_to_1
@@ -204,22 +205,22 @@ R14
 !i10b 1
 !s100 cGJHKc@:LVR_=k`5Y^AJG3
 INz4n;1TJoFMWNhnO^VMTc2
-R7
+R6
 w1679348954
 8D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Multiplexer_2_to_1.v
 FD:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Multiplexer_2_to_1.v
-!i122 57
+!i122 72
 L0 16 21
+R7
 R8
-R9
 r1
 !s85 0
 31
-Z15 !s108 1679351182.000000
+R15
 !s107 D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Multiplexer_2_to_1.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Multiplexer_2_to_1.v|
 !i113 0
-R11
+R10
 R4
 n@multiplexer_2_to_1
 vMUXRegisterFile
@@ -227,14 +228,14 @@ R14
 !i10b 1
 !s100 R2iQ5ioBeRKKS4K?d?OKT2
 IdT2kjR;CTzzM<7N5WL`?F1
-R7
+R6
 w1679348953
 8D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/MUX_Register_File.v
 FD:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/MUX_Register_File.v
-!i122 58
+!i122 73
 L0 15 82
+R7
 R8
-R9
 r1
 !s85 0
 31
@@ -242,22 +243,22 @@ R15
 !s107 D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/MUX_Register_File.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/MUX_Register_File.v|
 !i113 0
-R11
+R10
 R4
 n@m@u@x@register@file
 vPC_Register
-R14
+Z16 !s110 1679367263
 !i10b 1
 !s100 >]5^Q8HT[k5:W>XzbWS7S0
 IJcc=6M=NBeczz5jhbVLl@3
-R7
+R6
 w1679348952
 8D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/PC_Register.v
 FD:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/PC_Register.v
-!i122 59
+!i122 74
 L0 18 21
+R7
 R8
-R9
 r1
 !s85 0
 31
@@ -265,30 +266,30 @@ R15
 !s107 D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/PC_Register.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/PC_Register.v|
 !i113 0
-R11
+R10
 R4
 n@p@c_@register
 vProgram_Memory
-Z16 !s110 1679351183
+R16
 !i10b 1
-!s100 JVjBPC:Oo;MciHZZGC?ZK1
-IG_be8029d_gDcb?h[RBPl1
-R7
-w1679348950
+!s100 o_ZWjD:Xa4NZhnz9WJ5j?3
+IjJz7;RdYdgbjok;9<fj3a0
+R6
+R12
 8D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Program_Memory.v
 FD:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Program_Memory.v
-!i122 60
-L0 18 28
+!i122 75
+L0 19 28
+R7
 R8
-R9
 r1
 !s85 0
 31
-R15
+Z17 !s108 1679367263.000000
 !s107 D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Program_Memory.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Program_Memory.v|
 !i113 0
-R11
+R10
 R4
 n@program_@memory
 vRegister
@@ -296,22 +297,22 @@ R16
 !i10b 1
 !s100 Yl]4;azdDNzFzS>`kioU_1
 I71FNDmV^K56Lc[Vk5j6Da3
-R7
+R6
 w1679348946
 8D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Register.v
 FD:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Register.v
-!i122 61
+!i122 76
 L0 15 23
+R7
 R8
-R9
 r1
 !s85 0
 31
-Z17 !s108 1679351183.000000
+R17
 !s107 D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Register.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Register.v|
 !i113 0
-R11
+R10
 R4
 n@register
 vRegister_File
@@ -319,14 +320,14 @@ R16
 !i10b 1
 !s100 ?lVOl5cJ3jL7@h<nB98<Z2
 IN97V^VXcaUYS?6BnC5i:20
-R7
+R6
 w1679348947
 8D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Register_File.v
 FD:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Register_File.v
-!i122 62
+!i122 77
 L0 18 513
+R7
 R8
-R9
 r1
 !s85 0
 31
@@ -334,22 +335,22 @@ R17
 !s107 D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Register_File.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/Register_File.v|
 !i113 0
-R11
+R10
 R4
 n@register_@file
 vRISC_V_Single_Cycle
-R16
+Z18 !s110 1679367264
 !i10b 1
 !s100 d^21lVVT1;GohJEHkJeEc1
 I[F1QHoVCJZmEPP`Hc9Kam3
-R7
+R6
 w1679348829
 8D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle.v
 FD:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle.v
-!i122 63
+!i122 78
 L0 23 176
+R7
 R8
-R9
 r1
 !s85 0
 31
@@ -357,29 +358,29 @@ R17
 !s107 D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle.v|
 !i113 0
-R11
+R10
 R4
 n@r@i@s@c_@v_@single_@cycle
 vRISC_V_Single_Cycle_TB
-R16
+R18
 !i10b 1
 !s100 @VU;UHz2bflW<QLQFN;ME1
 Id:3QK<NNZcVSCCH@eMB9_1
-R7
+R6
 w1679348819
 8D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle_TB.v
 FD:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle_TB.v
-!i122 64
+!i122 79
 L0 18 26
+R7
 R8
-R9
 r1
 !s85 0
 31
-R17
+!s108 1679367264.000000
 !s107 D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle_TB.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/ARQ_QUARTUS/RISC_V_Single_Cycle/src/RISC_V_Single_Cycle_TB.v|
 !i113 0
-R11
+R10
 R4
 n@r@i@s@c_@v_@single_@cycle_@t@b

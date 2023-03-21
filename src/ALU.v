@@ -27,16 +27,18 @@ module ALU
 );
 
 localparam ADD		= 4'b0000;
+localparam LUI		= 4'b1000;
    
    always @ (A_i or B_i or ALU_Operation_i)
      begin
 		case (ALU_Operation_i)
-		ADD: // Add operation
-			ALU_Result_o = A_i + B_i;
-	
-		default:
-			ALU_Result_o = 0;
-		endcase // case(control)
+			ADD: // Add operation
+				ALU_Result_o = A_i + B_i;
+			LUI: // Load Upper Imm operation
+				ALU_Result_o = {B_i[19:0],12'b0};
+			default:
+				ALU_Result_o = 0;
+			endcase // case(control)
 		
 		Zero_o = (ALU_Result_o == 0) ? 1'b1 : 1'b0;
 		
