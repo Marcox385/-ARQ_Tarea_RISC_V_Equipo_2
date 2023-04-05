@@ -6,12 +6,30 @@
 
 ### Instrucciones implementadas
 - Tipo R
-    - ADD
-    - SUB
+    - [x] ADD
+    - [ ] AND
+    - [ ] OR
+    - [ ] SLL
+    - [ ] SRL
+    - [x] SUB
+    - [ ] XOR
+- Tipo S
+    - [ ] SW
 - Tipo I
-    - ADDI
-    - ORI
-    - SLLI
-    - SRLI
+    - [x] ADDI
+    - [ ] ANDI
+    - [ ] JALR
+    - [ ] LW
+    - [x] ORI
+    - [x] SLLI
+    - [x] SRLI
+    - [ ] XORI
+- Tipo B
+    - [ ] BEQ
+    - [ ] BGE
+    - [ ] BLT
+    - [ ] BNE
 - Tipo U
-    - LUI
+    - [x] LUI
+- Tipo J
+    - [ ] JAL

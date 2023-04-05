@@ -43,9 +43,9 @@ always @ (A_i or B_i or ALU_Operation_i)
 			ORI:
 				ALU_Result_o = A_i | B_i;
 			SLLI:
-				ALU_Result_o = A_i << B_i;
+				ALU_Result_o = A_i << B_i[4:0];
 			SRLI:
-				ALU_Result_o = A_i >> B_i;
+				ALU_Result_o = A_i >> B_i[4:0];
 			SUB:
 				ALU_Result_o = A_i - B_i;
 			default:
